@@ -1,0 +1,182 @@
+{  
+    "sections": [  
+        {  
+            "categories": [  
+                {  
+                    "name": "游戏信息",  
+                    "links": [  
+                        { "name": "Steam - 全球最大的数字游戏商店，提供丰富的游戏库和社区功能。", "url": "https://store.steampowered.com/" },  
+                        { "name": "Epic Games Store - 提供独占游戏和免费游戏的数字商店，定期推出促销活动。", "url": "https://www.epicgames.com/store/en-US/" },  
+                        { "name": "GOG - 无DRM的数字游戏商店，提供经典游戏和独立游戏。", "url": "https://www.gog.com/" },  
+                        { "name": "itch.io - 独立游戏开发者的平台，用户可以发现和支持独立游戏。", "url": "https://itch.io/" },  
+                        { "name": "Game Jolt - 独立游戏社区和商店，用户可以分享和下载游戏。", "url": "https://gamejolt.com/" },  
+                        { "name": "Gamasutra - 游戏开发者的专业网站，提供行业新闻、文章和资源。", "url": "https://www.gamasutra.com/" },  
+                        { "name": "Reddit - r/gaming - 游戏相关的社区，用户可以讨论和分享游戏新闻和体验。", "url": "https://www.reddit.com/r/gaming/" },  
+                        { "name": "NeoGAF - 游戏讨论论坛，涵盖最新游戏新闻和行业动态。", "url": "https://www.neogaf.com/" },  
+                        { "name": "ResetEra - 游戏讨论社区，用户可以讨论各种游戏和相关话题。", "url": "https://www.resetera.com/" },  
+                        { "name": "GameFAQs - 提供游戏攻略、评测和用户评论的综合网站。", "url": "https://www.gamefaqs.gamespot.com/" }  
+                    ]  
+                }  
+            ]  
+        },  
+        {  
+            "categories": [  
+                {  
+                    "name": "即时热点",  
+                    "links": [  
+                        { "name": "BuzzSumo内容分析 - 分析热门内容和社交媒体趋势的工具。", "url": "https://buzzsumo.com/" },  
+                        { "name": "Google Trends趋势分析 - 查看关键词的搜索趋势和热度变化。", "url": "https://trends.google.com/" },  
+                        { "name": "TrendHunter趋势观察 - 发现最新趋势和创新的资源。", "url": "https://www.trendhunter.com/" },  
+                        { "name": "Feedly内容聚合 - 聚合和阅读最新的新闻和博客文章。", "url": "https://feedly.com/" },  
+                        { "name": "Reddit社区讨论 - 参与各种主题的社区讨论。", "url": "https://www.reddit.com/r/all/" },  
+                        { "name": "AllTop新闻聚合 - 聚合热门新闻和博客的资源。", "url": "https://alltop.com/" },  
+                        { "name": "Social Search社交搜索 - 搜索社交媒体上的内容和趋势。", "url": "https://www.social-searcher.com/" },  
+                        { "name": "TrendMap趋势地图 - 可视化展示趋势和热门话题。", "url": "https://trendmap.com/" },  
+                        { "name": "Talkwalker舆情监测 - 监测品牌和行业的舆情动态。", "url": "https://www.talkwalker.com/" },  
+                        { "name": "Mention品牌监测 - 实时监测品牌提及和社交媒体动态。", "url": "https://mention.com/" }  
+                    ]  
+                }  
+            ]  
+        },  
+        {  
+            "categories": [  
+                {  
+                    "name": "IP追踪",  
+                    "links": [  
+                        { "name": "MyAnimeList动漫评分 - 提供动漫评分、评论和讨论的平台。", "url": "https://myanimelist.net/" },  
+                        { "name": "AniList动漫评分 - 评分和追踪动漫及漫画的社区。", "url": "https://anilist.co/" },  
+                        { "name": "IMDb电影评分 - 提供电影和电视剧的评分和评论。", "url": "https://www.imdb.com/" },  
+                        { "name": "Kitsu动漫追踪 - 动漫追踪和社区讨论平台。", "url": "https://kitsu.io/" },  
+                        { "name": "Crunchyroll动漫观看 - 提供最新动漫流媒体服务的平台。", "url": "https://www.crunchyroll.com/" },  
+                        { "name": "AniDB动漫数据库 - 动漫数据库，提供详细信息和评分。", "url": "https://anidb.net/" },  
+                        { "name": "Rotten Tomatoes影评网站 - 提供电影和电视剧的影评和评分。", "url": "https://www.rottentomatoes.com/" },  
+                        { "name": "Bilibili视频分享 - 中国最大的二次元视频分享平台。", "url": "https://www.bilibili.com/" }  
+                    ]  
+                }  
+            ]  
+        },  
+        {  
+            "categories": [  
+                {  
+                    "name": "素材资源",  
+                    "links": [  
+                        { "name": "OpenGameArt - 提供免费游戏素材的资源库。", "url": "https://opengameart.org/" },  
+                        { "name": "Kenney - 提供各种游戏资产和素材的资源。", "url": "https://kenney.nl/assets" },  
+                        { "name": "Videvo视频素材 - 提供免费的视频素材和动画。", "url": "https://www.videvo.net/" },  
+                        { "name": "Pexels视频素材 - 提供高质量的免费视频素材。", "url": "https://www.pexels.com/videos/" },  
+                        { "name": "Mixkit免版权视频 - 提供免版权的视频素材。", "url": "https://mixkit.co/" },  
+                        { "name": "Motion Array模板资源 - 提供视频模板和素材的资源。", "url": "https://motionarray.com/free/" },  
+                        { "name": "Coverr免费视频 - 提供免费的高清视频素材。", "url": "https://coverr.co/" },  
+                        { "name": "Life of Vids免费视频 - 提供高质量的免费视频素材。", "url": "https://www.lifeofvids.com/" },  
+                        { "name": "FlexClip视频工具 - 在线视频编辑工具，支持多种功能。", "url": "https://www.flexclip.com/learn/video-editor-no-sign-up.html" },  
+                        { "name": "Flixier视频编辑 - 在线视频编辑工具，支持快速编辑。", "url": "https://flixier.com/" },  
+                        { "name": "Veed视频编辑 - 提供在线视频编辑和制作工具。", "url": "https://www.veed.io/tools/video-editor" },  
+                        { "name": "在线电影制作器 - 在线制作电影和视频的工具。", "url": "https://moviemakeronline.com/ve/video-editing-software-without-registration" },  
+                        { "name": "Kapwing视频尺寸调整 - 在线调整视频尺寸以适应社交平台的工具。", "url": "https://www.kapwing.com/tools/resize-video" }  
+                    ]  
+                }  
+            ]  
+        },  
+        {  
+            "categories": [  
+                {  
+                    "name": "音频视频",  
+                    "links": [  
+                        { "name": "压缩视频 - 在线压缩视频文件的工具。", "url": "https://tinywow.com/video/compress" },  
+                        { "name": "视频转GIF - 将视频转换为GIF格式的工具。", "url": "https://tinywow.com/video/to-gif" },  
+                        { "name": "剪辑视频 - 在线剪辑视频的工具。", "url": "https://tinywow.com/video/cutter" },  
+                        { "name": "MP4转MP3 - 将MP4视频转换为MP3音频的工具。", "url": "https://tinywow.com/video/mp4-to-mp3" },  
+                        { "name": "音频转文本 - 将音频转换为文本的工具。", "url": "https://tinywow.com/video/audio-to-text" },  
+                        { "name": "调整视频尺寸 - 在线调整视频尺寸的工具。", "url": "https://tinywow.com/video/resize" },  
+                        { "name": "提取音频 - 从视频中提取音频的工具。", "url": "https://tinywow.com/video/extract-audio" },  
+                        { "name": "MOV转MP4 - 将MOV格式视频转换为MP4的工具。", "url": "https://tinywow.com/video/mov-to-mp4" },  
+                        { "name": "MKV转MP4 - 将MKV格式视频转换为MP4的工具。", "url": "https://tinywow.com/video/mkv-to-mp4" },  
+                        { "name": "Facebook视频下载 - 下载Facebook视频的工具。", "url": "https://tinywow.com/video/from-fb" },  
+                        { "name": "TikTok视频下载 - 下载TikTok视频的工具。", "url": "https://tinywow.com/video/from-tiktok" },  
+                        { "name": "Instagram视频下载 - 下载Instagram视频的工具。", "url": "https://tinywow.com/video/from-inst" },  
+                        { "name": "Twitter视频下载 - 下载Twitter视频的工具。", "url": "https://tinywow.com/video/from-twitter" },  
+                        { "name": "M4A转MP3 - 将M4A音频转换为MP3的工具。", "url": "https://tinywow.com/video/m4a-to-mp3" },  
+                        { "name": "视频转WebP - 将视频转换为WebP格式的工具。", "url": "https://tinywow.com/video/to-webp" },  
+                        { "name": "音频分离 - 在线音频分离工具。", "url": "https://www.audioremover.com/" },  
+                        { "name": "视频自动添加音频 - 在线为视频添加音频的工具。", "url": "https://www.kapwing.com/tools/add-audio-to-video" },  
+                        { "name": "音频分离器 - 提供音频分离功能的工具。", "url": "https://www.veed.io/tools/video-audio-separator" },  
+                        { "name": "在线音频转换器 - 在线转换音频格式的工具。", "url": "https://online-audio-converter.com/" }  
+                    ]  
+                }  
+            ]  
+        },  
+        {  
+            "categories": [  
+                {  
+                    "name": "AI工具",  
+                    "links": [  
+                        { "name": "DeepAI图像生成器 - 在线生成图像的AI工具。", "url": "https://deepai.org/machine-learning-model/text2img" },  
+                        { "name": "Runway ML - 提供多种AI工具的创作平台。", "url": "https://runwayml.com/" },  
+                        { "name": "Lumen5视频制作 - 在线制作视频的AI工具。", "url": "https://www.lumen5.com/" },  
+                        { "name": "Pexels视频素材 - 提供高质量的免费视频素材。", "url": "https://www.pexels.com/videos/" },  
+                        { "name": "Remove.bg背景去除 - 在线去除图像背景的工具。", "url": "https://www.remove.bg/" },  
+                        { "name": "Deep Dream生成器 - 生成梦幻风格图像的AI工具。", "url": "https://deepdreamgenerator.com/" },  
+                        { "name": "AIVA音乐创作 - AI音乐创作工具。", "url": "https://www.aiva.ai/" },  
+                        { "name": "Jukedeck音乐制作 - 在线生成音乐的AI工具。", "url": "https://www.jukedeck.com/" },  
+                        { "name": "Artbreeder艺术合成 - 在线合成和生成艺术作品的工具。", "url": "https://www.artbreeder.com/" },  
+                        { "name": "Daz 3D建模工具 - 3D建模和动画制作工具。", "url": "https://www.daz3d.com/" },  
+                        { "name": "Synthesia视频制作 - AI生成视频的工具。", "url": "https://www.synthesia.io/" },  
+                        { "name": "Voice.ai语音合成 - 在线生成语音的工具。", "url": "https://voice.ai/" },  
+                        { "name": "Wavve音频合成 - 在线生成音频的工具。", "url": "https://wavve.co/" },  
+                        { "name": "Narakeet AI配音生成器 - 在线生成配音的工具。", "url": "https://www.narakeet.com/create/ai-voice-generator.html" },  
+                        { "name": "AI配音生成器 - 在线生成配音的工具。", "url": "https://aivoicegenerator.com/" },  
+                        { "name": "DeepAI视频生成器 - 在线生成视频的AI工具。", "url": "https://deepai.org/machine-learning-model/text-to-video" },  
+                        { "name": "D-ID对口型生成 - 在线生成对口型视频的工具。", "url": "https://www.d-id.com/" },  
+                        { "name": "Synthesia AI视频生成 - AI生成视频的工具。", "url": "https://www.synthesia.io/" },  
+                        { "name": "PuppetMaster 2D转3D - 将2D图像转换为3D模型的工具。", "url": "https://puppetmaster.ai/" },  
+                        { "name": "Runway ML视频编辑 - 提供视频编辑功能的AI工具。", "url": "https://runwayml.com/" },  
+                        { "name": "Reface换脸应用 - 在线换脸和视频编辑工具。", "url": "https://reface.app/" },  
+                        { "name": "Avatarify实时面部动画 - 实时面部动画生成工具。", "url": "https://avatarify.ai/" },  
+                        { "name": "Mug Life 3D动画 - 在线制作3D动画的工具。", "url": "https://www.muglife.com/" },  
+                        { "name": "Pixaloop动态图像 - 在线制作动态图像的工具。", "url": "https://pixaloop.en.softonic.com/" },  
+                        { "name": "Jitter动画制作 - 在线制作动画的工具。", "url": "https://jitter.video/" },  
+                        { "name": "Voice.ai声音克隆 - 在线生成声音克隆的工具。", "url": "https://voice.ai/" },  
+                        { "name": "Soundraw音乐生成 - 在线生成音乐的AI工具。", "url": "https://soundraw.io/" },  
+                        { "name": "AI Dungeon互动故事 - 互动式AI故事生成平台。", "url": "https://play.aidungeon.io/" }  
+                    ]  
+                }  
+            ]  
+        },  
+        {  
+            "categories": [  
+                {  
+                    "name": "搜索引擎",  
+                    "links": [  
+                        { "name": "DuckDuckGo - 隐私保护的搜索引擎，提供无追踪搜索体验。", "url": "https://duckduckgo.com/" },  
+                        { "name": "Startpage - 提供Google搜索结果的隐私保护搜索引擎。", "url": "https://www.startpage.com/" },  
+                        { "name": "Ecosia - 绿色搜索引擎，搜索时种树。", "url": "https://www.ecosia.org/" },  
+                        { "name": "Yandex - 俄罗斯的搜索引擎，提供多种服务。", "url": "https://yandex.com/" },  
+                        { "name": "Bing - 微软的搜索引擎，提供丰富的搜索结果。", "url": "https://www.bing.com/" },  
+                        { "name": "Qwant - 欧洲的隐私保护搜索引擎。", "url": "https://www.qwant.com/" },  
+                        { "name": "Archive.org - 提供互联网档案和资源搜索的工具。", "url": "https://archive.org/" },  
+                        { "name": "Wayback Machine - 查看网站历史版本的工具。", "url": "https://web.archive.org/" },  
+                        { "name": "Google Scholar - 学术搜索引擎，提供学术论文和研究资料。", "url": "https://scholar.google.com/" },  
+                        { "name": "Creative Commons Search - 搜索可自由使用的创作内容。", "url": "https://search.creativecommons.org/" }  
+                    ]  
+                }  
+            ]  
+        },  
+        {  
+            "categories": [  
+                {  
+                    "name": "其它工具",  
+                    "links": [  
+                        { "name": "拆分CSV - 在线拆分CSV文件的工具。", "url": "https://tinywow.com/converter/split-csv" },  
+                        { "name": "拆分Excel - 在线拆分Excel文件的工具。", "url": "https://tinywow.com/converter/split-excel" },  
+                        { "name": "Excel转PDF - 将Excel文件转换为PDF的工具。", "url": "https://tinywow.com/converter/excel-to-pdf" },  
+                        { "name": "XML转Excel - 将XML文件转换为Excel的工具。", "url": "https://tinywow.com/converter/xml-to-excel" },  
+                        { "name": "Excel转XML - 将Excel文件转换为XML的工具。", "url": "https://tinywow.com/converter/excel-to-xml" },  
+                        { "name": "CSV转Excel - 将CSV文件转换为Excel的工具。", "url": "https://tinywow.com/converter/csv-to-excel" },  
+                        { "name": "XML转CSV - 将XML文件转换为CSV的工具。", "url": "https://tinywow.com/converter/xml-to-csv" },  
+                        { "name": "XML转JSON - 将XML文件转换为JSON的工具。", "url": "https://tinywow.com/converter/xml-to-json" }  
+                    ]  
+                }  
+            ]  
+        }  
+    ]  
+}
