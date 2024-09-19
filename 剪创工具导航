@@ -1,0 +1,208 @@
+<!DOCTYPE html>  
+<html lang="zh">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>剪创工具导航</title>  
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.0/flowbite.min.css" rel="stylesheet" />  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.0/flowbite.min.js"></script>  
+    <style>  
+        body {  
+            background: linear-gradient(135deg, #f3f4f6, #e5e7eb);  
+            animation: backgroundAnimation 10s infinite alternate;  
+        }  
+        @keyframes backgroundAnimation {  
+            0% { background-color: #f3f4f6; }  
+            100% { background-color: #e5e7eb; }  
+        }  
+        .hover\:scale-110:hover {  
+            transform: scale(1.1);  
+        }  
+        .numbered-title {  
+            font-size: 1.5rem;  
+            font-weight: bold;  
+            color: #3b82f6; /* Tailwind's blue-500 */  
+            margin-right: 0.5rem;  
+        }  
+    </style>  
+    <script>  
+        let navigationData = [];  
+
+        window.onload = function() {  
+            loadNavigationData();  
+        }  
+
+        function loadNavigationData() {  
+            fetch('https://raw.githubusercontent.com/shimuchong/-/main/Website%20Navigation%20Data%20JSON.json')  
+                .then(response => response.json())  
+                .then(data => {  
+                    navigationData = data;  
+                    loadNavigation(navigationData);  
+                })  
+                .catch(error => console.error('加载数据时出错:', error));  
+        }  
+
+        function loadNavigation(data) {  
+            const container = document.getElementById('navigation');  
+            container.innerHTML = '';  
+            data.sections.forEach((section, sectionIndex) => {  
+                const sectionDiv = document.createElement('div');  
+                sectionDiv.className = "mt-8 p-4 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 duration-300";  
+
+                section.categories.forEach((category, categoryIndex) => {  
+                    const categoryDiv = document.createElement('div');  
+                    categoryDiv.className = "mb-6 p-4 bg-gray-100 rounded-lg shadow-md transition-transform transform hover:scale-110 duration-300";  
+                    
+                    const categoryTitle = document.createElement('h3');  
+                    categoryTitle.className = "text-2xl font-semibold text-gray-700 mb-2 flex items-center";  
+                    categoryTitle.innerHTML = `<span class="numbered-title">${sectionIndex + 1}.${categoryIndex + 1}</span>${category.name}`;  
+                    categoryDiv.appendChild(categoryTitle);  
+
+                    const linkList = document.createElement('div');  
+                    linkList.className = "grid grid-cols-2 gap-4";  
+                    category.links.forEach(link => {  
+                        const linkItem = document.createElement('a');  
+                        linkItem.href = link.url;  
+                        linkItem.target = "_blank";  
+                        linkItem.className = "block p-4 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition-colors duration-200 text-center transform hover:scale-105";  
+                        linkItem.innerText = link.name;  
+                        linkList.appendChild(linkItem);  
+                    });  
+                    categoryDiv.appendChild(linkList);  
+                    sectionDiv.appendChild(categoryDiv);  
+                });  
+                container.appendChild(sectionDiv);  
+            });  
+        }  
+
+        function performSearch() {  
+            const query = document.getElementById('search-input').value.toLowerCase();  
+            const container = document.getElementById('navigation');  
+            const clearButton = document.getElementById('clear-button');  
+
+            if (query === '') {  
+                loadNavigation(navigationData);  
+                clearButton.classList.add('hidden');  
+                return;  
+            }  
+
+            const results = navigationData.sections.flatMap(section =>  
+                section.categories.flatMap(category =>  
+                    category.links.filter(link => link.name.toLowerCase().includes(query))  
+                )  
+            );  
+
+            container.innerHTML = '';  
+            if (results.length > 0) {  
+                results.forEach(link => {  
+                    const linkItem = document.createElement('a');  
+                    linkItem.href = link.url;  
+                    linkItem.target = "_blank";  
+                    linkItem.className = "block p-4 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition-colors duration-200 text-center transform hover:scale-105";  
+                    linkItem.innerText = link.name;  
+                    container.appendChild(linkItem);  
+                });  
+                clearButton.classList.remove('hidden');  
+            } else {  
+                container.innerHTML = '<p class="text-gray-500">未找到相关链接</p>';  
+                clearButton.classList.remove('hidden');  
+            }  
+        }  
+
+        function clearSearch() {  
+            document.getElementById('search-input').value = '';  
+            loadNavigation(navigationData);  
+            document.getElementById('clear-button').classList.add('hidden');  
+        }  
+
+        function performEngineSearch() {  
+            const query = document.getElementById('engine-search-input').value;  
+            const engine = document.getElementById('search-engine').value;  
+            let searchUrl = '';  
+
+            switch (engine) {  
+                case 'duckduckgo':  
+                    searchUrl = `https://duckduckgo.com/?q=${encodeURIComponent(query)}`;  
+                    break;  
+                case 'startpage':  
+                    searchUrl = `https://www.startpage.com/do/search?q=${encodeURIComponent(query)}`;  
+                    break;  
+                case 'ecosia':  
+                    searchUrl = `https://www.ecosia.org/search?q=${encodeURIComponent(query)}`;  
+                    break;  
+                case 'yandex':  
+                    searchUrl = `https://yandex.com/search/?text=${encodeURIComponent(query)}`;  
+                    break;  
+                case 'bing':  
+                    searchUrl = `https://www.bing.com/search?q=${encodeURIComponent(query)}`;  
+                    break;  
+                case 'qwant':  
+                    searchUrl = `https://www.qwant.com/?q=${encodeURIComponent(query)}`;  
+                    break;  
+                case 'google':  
+                    searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;  
+                    break;  
+                default:  
+                    alert('请选择一个搜索引擎');  
+                    return;  
+            }  
+
+            window.open(searchUrl, '_blank');  
+        }  
+    </script>  
+</head>  
+<body class="bg-gray-100">  
+    <div class="bg-white p-4 shadow-md rounded-lg">  
+        <h2 class="text-4xl font-bold mb-2 text-center text-blue-600">自定义搜索</h2>  
+        <div class="flex items-center mb-4 whitespace-nowrap">  
+            <input type="text" id="engine-search-input" placeholder="输入搜索关键词" class="p-2 border border-gray-300 rounded mr-2 w-full" />  
+            <select id="search-engine" class="p-2 border border-gray-300 rounded mr-2">  
+                <option value="duckduckgo">DuckDuckGo</option>  
+                <option value="startpage">Startpage</option>  
+                <option value="ecosia">Ecosia</option>  
+                <option value="yandex">Yandex</option>  
+                <option value="bing">Bing</option>  
+                <option value="qwant">Qwant</option>  
+                <option value="google">Google</option>  
+            </select>  
+            <button onclick="performEngineSearch()" class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-200 whitespace-nowrap">搜索引擎搜索</button>  
+        </div>  
+    </div>  
+    <div class="bg-white p-4 shadow-md mt-4 rounded-lg">  
+        <h2 class="text-4xl font-bold mb-2 text-center text-blue-600">页面内搜索</h2>  
+        <div class="flex items-center mb-4">  
+            <input type="text" id="search-input" placeholder="输入网址名称" class="p-2 border border-gray-300 rounded mr-2 w-full" />  
+            <button onclick="performSearch()" class="p-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-200 whitespace-nowrap">搜索</button>  
+            <button id="clear-button" onclick="clearSearch()" class="p-2 bg-red-500 text-white rounded hover:bg-red-600 transition-colors duration-200 hidden">清空</button>  
+        </div>  
+    </div>  
+    <div id="navigation" class="max-w-6xl mx-auto p-8"></div>  
+    <script>  
+        window.parent.postMessage({ action: "ready" }, "*");  
+
+        window.console = new Proxy(console, {  
+            get(target, prop) {  
+                if (['log', 'warn', 'error'].includes(prop)) {  
+                    return new Proxy(target[prop], {  
+                        apply(fn, thisArg, args) {  
+                            fn.apply(thisArg, args);  
+                            window.parent.postMessage({ action: 'console',  
+                                type: prop,  
+                                args: args.map((arg) => {  
+                                    try {  
+                                        return JSON.stringify(arg).replace(/^["']|["']$/g, '');  
+                                    } catch (e) {  
+                                        return arg;  
+                                    }  
+                                })  
+                            }, '*');  
+                        }  
+                    });  
+                }  
+                return target[prop];  
+            }  
+        });  
+    </script>  
+</body>  
+</html>
