@@ -5,7 +5,7 @@
                 {
                     "name": "游戏信息",
                     "links": [
-                        {  
+                         {  
                             "name": "Google Play - 安卓设备的官方应用商店，提供丰富的手游和应用。",  
                             "url": "https://play.google.com"  
                         },  
@@ -77,75 +77,12 @@
                 }
             ]
         },
+        {
+            "categories": [
                 {
-                    "categories": [
-                        {
-                            "name": "即时热点",
-                            "links": [
-                                       {  
-                            "name": "BuzzSumo内容分析 - 分析热门内容和社交媒体趋势的工具。",  
-                            "url": "https://buzzsumo.com/"  
-                        },  
-                        {  
-                            "name": "Google Trends趋势分析 - 查看关键词的搜索趋势和热度变化。",  
-                            "url": "https://trends.google.com/"  
-                        },  
-                        {  
-                            "name": "TrendHunter趋势观察 - 发现最新趋势和创新的资源。",  
-                            "url": "https://www.trendhunter.com/"  
-                        },  
-                        {  
-                            "name": "Feedly内容聚合 - 聚合和阅读最新的新闻和博客文章。",  
-                            "url": "https://feedly.com/"  
-                        },  
-                        {  
-                            "name": "Reddit社区讨论 - 参与各种主题的社区讨论。",  
-                            "url": "https://www.reddit.com/r/all/"  
-                        },  
-                        {  
-                            "name": "AllTop新闻聚合 - 聚合热门新闻和博客的资源。",  
-                            "url": "https://alltop.com/"  
-                        },  
-                        {  
-                            "name": "Social Search社交搜索 - 搜索社交媒体上的内容和趋势。",  
-                            "url": "https://www.social-searcher.com/"  
-                        },  
-                        {  
-                            "name": "TrendMap趋势地图 - 可视化展示趋势和热门话题。",  
-                            "url": "https://trendmap.com/"  
-                        },  
-                        {  
-                            "name": "Talkwalker舆情监测 - 监测品牌和行业的舆情动态。",  
-                            "url": "https://www.talkwalker.com/"  
-                        },  
-                        {  
-                            "name": "Mention品牌监测 - 实时监测品牌提及和社交媒体动态。",  
-                            "url": "https://mention.com/"  
-                        },  
-                        {  
-                            "name": "微博 - 中国最大的社交媒体平台，实时了解热点新闻。",  
-                            "url": "https://weibo.com/"  
-                        },  
-                        {  
-                            "name": "知乎 - 知识分享和讨论社区，用户可以参与热点话题讨论。",  
-                            "url": "https://www.zhihu.com/"  
-                        },  
-                        {  
-                            "name": "今日头条 - 个性化的新闻资讯平台，聚合热点新闻。",  
-                            "url": "https://www.toutiao.com/"  
-                        },  
-                        {  
-                            "name": "百度热搜 - 实时了解百度上的热点搜索。",  
-                            "url": "https://top.baidu.com/"  
-                        }
-                    ]
-                },
-        {  
-            "categories": [  
-                {  
-                    "name": "视频参考",  
-                    "links": [  
-                        {  
+                    "name": "视频参考",
+                    "links": [
+                       {  
                             "name": "YouTube - 全球最大的视频分享平台。",  
                             "url": "https://www.youtube.com"  
                         },  
@@ -173,9 +110,74 @@
                             "name": "Disney+ - 迪士尼的流媒体视频服务。",  
                             "url": "https://www.disneyplus.com"  
                         }  
-                    ]  
-                }  
-            ]  
+                    ]
+                }
+            ]
+        },
+        {
+            "categories": [
+                {
+                    "name": "即时热点",
+                    "links": [
+                        {
+                            "name": "BuzzSumo内容分析 - 分析热门内容和社交媒体趋势的工具。",
+                            "url": "https://buzzsumo.com/"
+                        },
+                        {
+                            "name": "Google Trends趋势分析 - 查看关键词的搜索趋势和热度变化。",
+                            "url": "https://trends.google.com/"
+                        },
+                        {
+                            "name": "TrendHunter趋势观察 - 发现最新趋势和创新的资源。",
+                            "url": "https://www.trendhunter.com/"
+                        },
+                        {
+                            "name": "Feedly内容聚合 - 聚合和阅读最新的新闻和博客文章。",
+                            "url": "https://feedly.com/"
+                        },
+                        {
+                            "name": "Reddit社区讨论 - 参与各种主题的社区讨论。",
+                            "url": "https://www.reddit.com/r/all/"
+                        },
+                        {
+                            "name": "AllTop新闻聚合 - 聚合热门新闻和博客的资源。",
+                            "url": "https://alltop.com/"
+                        },
+                        {
+                            "name": "Social Search社交搜索 - 搜索社交媒体上的内容和趋势。",
+                            "url": "https://www.social-searcher.com/"
+                        },
+                        {
+                            "name": "TrendMap趋势地图 - 可视化展示趋势和热门话题。",
+                            "url": "https://trendmap.com/"
+                        },
+                        {
+                            "name": "Talkwalker舆情监测 - 监测品牌和行业的舆情动态。",
+                            "url": "https://www.talkwalker.com/"
+                        },
+                        {
+                            "name": "Mention品牌监测 - 实时监测品牌提及和社交媒体动态。",
+                            "url": "https://mention.com/"
+                        },
+                        {
+                            "name": "微博 - 中国最大的社交媒体平台，实时了解热点新闻。",
+                            "url": "https://weibo.com/"
+                        },
+                        {
+                            "name": "知乎 - 知识分享和讨论社区，用户可以参与热点话题讨论。",
+                            "url": "https://www.zhihu.com/"
+                        },
+                        {
+                            "name": "今日头条 - 个性化的新闻资讯平台，聚合热点新闻。",
+                            "url": "https://www.toutiao.com/"
+                        },
+                        {
+                            "name": "百度热搜 - 实时了解百度上的热点搜索。",
+                            "url": "https://top.baidu.com/"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "categories": [
@@ -480,6 +482,63 @@
                         {
                             "name": "AI Dungeon互动故事 - 互动式AI故事生成平台。",
                             "url": "https://play.aidungeon.io/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "categories": [
+                {
+                    "name": "搜索引擎",
+                    "links": [
+                        {
+                            "name": "DuckDuckGo - 隐私保护的搜索引擎，提供无追踪搜索体验。",
+                            "url": "https://duckduckgo.com/"
+                        },
+                        {
+                            "name": "Startpage - 提供Google搜索结果的隐私保护搜索引擎。",
+                            "url": "https://www.startpage.com/"
+                        },
+                        {
+                            "name": "Ecosia - 绿色搜索引擎，搜索时种树。",
+                            "url": "https://www.ecosia.org/"
+                        },
+                        {
+                            "name": "Yandex - 俄罗斯的搜索引擎，提供多种服务。",
+                            "url": "https://yandex.com/"
+                        },
+                        {
+                            "name": "Bing - 微软的搜索引擎，提供丰富的搜索结果。",
+                            "url": "https://www.bing.com/"
+                        },
+                        {
+                            "name": "Qwant - 欧洲的隐私保护搜索引擎。",
+                            "url": "https://www.qwant.com/"
+                        },
+                        {
+                            "name": "Archive.org - 提供互联网档案和资源搜索的工具。",
+                            "url": "https://archive.org/"
+                        },
+                        {
+                            "name": "Wayback Machine - 查看网站历史版本的工具。",
+                            "url": "https://web.archive.org/"
+                        },
+                        {
+                            "name": "Google Scholar - 学术搜索引擎，提供学术论文和研究资料。",
+                            "url": "https://scholar.google.com/"
+                        },
+                        {
+                            "name": "Creative Commons Search - 搜索可自由使用的创作内容。",
+                            "url": "https://search.creativecommons.org/"
+                        },
+                        {
+                            "name": "百度 - 中国最大的搜索引擎，提供全面的搜索服务。",
+                            "url": "https://www.baidu.com/"
+                        },
+                        {
+                            "name": "搜狗搜索 - 提供搜索、输入法和其他网络服务。",
+                            "url": "https://www.sogou.com/"
                         }
                     ]
                 }
