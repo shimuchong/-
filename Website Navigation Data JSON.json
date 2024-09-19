@@ -141,42 +141,42 @@
             ]
         },
         {  
-    "categories": [  
-        {  
-            "name": "视频参考",  
-            "links": [  
+            "categories": [  
                 {  
-                    "name": "YouTube - 全球最大的视频分享平台。",  
-                    "url": "https://www.youtube.com"  
-                },  
-                {  
-                    "name": "Vimeo - 高质量视频分享平台。",  
-                    "url": "https://www.vimeo.com"  
-                },  
-                {  
-                    "name": "Dailymotion - 视频分享和观看平台。",  
-                    "url": "https://www.dailymotion.com"  
-                },  
-                {  
-                    "name": "Twitch - 直播和视频游戏社区。",  
-                    "url": "https://www.twitch.tv"  
-                },  
-                {  
-                    "name": "Netflix - 在线流媒体视频服务。",  
-                    "url": "https://www.netflix.com"  
-                },  
-                {  
-                    "name": "Hulu - 提供流媒体视频服务的平台。",  
-                    "url": "https://www.hulu.com"  
-                },  
-                {  
-                    "name": "Disney+ - 迪士尼的流媒体视频服务。",  
-                    "url": "https://www.disneyplus.com"  
+                    "name": "视频参考",  
+                    "links": [  
+                        {  
+                            "name": "YouTube - 全球最大的视频分享平台。",  
+                            "url": "https://www.youtube.com"  
+                        },  
+                        {  
+                            "name": "Vimeo - 高质量视频分享平台。",  
+                            "url": "https://www.vimeo.com"  
+                        },  
+                        {  
+                            "name": "Dailymotion - 视频分享和观看平台。",  
+                            "url": "https://www.dailymotion.com"  
+                        },  
+                        {  
+                            "name": "Twitch - 直播和视频游戏社区。",  
+                            "url": "https://www.twitch.tv"  
+                        },  
+                        {  
+                            "name": "Netflix - 在线流媒体视频服务。",  
+                            "url": "https://www.netflix.com"  
+                        },  
+                        {  
+                            "name": "Hulu - 提供流媒体视频服务的平台。",  
+                            "url": "https://www.hulu.com"  
+                        },  
+                        {  
+                            "name": "Disney+ - 迪士尼的流媒体视频服务。",  
+                            "url": "https://www.disneyplus.com"  
+                        }  
+                    ]  
                 }  
             ]  
-        }  
-    ]  
-},
+        },
         {
             "categories": [
                 {
