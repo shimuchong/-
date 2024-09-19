@@ -137,7 +137,14 @@
                 {  
                     "name": "百度热搜 - 实时了解百度上的热点搜索。",  
                     "url": "https://top.baidu.com/"  
-                },  
+                }
+            ]
+        },
+        {  
+    "categories": [  
+        {  
+            "name": "视频参考",  
+            "links": [  
                 {  
                     "name": "YouTube - 全球最大的视频分享平台。",  
                     "url": "https://www.youtube.com"  
@@ -153,7 +160,7 @@
                 {  
                     "name": "Twitch - 直播和视频游戏社区。",  
                     "url": "https://www.twitch.tv"  
-                },   
+                },  
                 {  
                     "name": "Netflix - 在线流媒体视频服务。",  
                     "url": "https://www.netflix.com"  
@@ -166,10 +173,10 @@
                     "name": "Disney+ - 迪士尼的流媒体视频服务。",  
                     "url": "https://www.disneyplus.com"  
                 }  
-                    ]
-                }
-            ]
-        },
+            ]  
+        }  
+    ]  
+},
         {
             "categories": [
                 {
