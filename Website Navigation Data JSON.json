@@ -246,6 +246,10 @@
                             "url": "https://tinywow.com/video/from-twitter"  
                         },  
                          {  
+                        "name": "YouTube高清视频下载 - 油管(YouTube)视频解析下载保存到手机、电脑",  
+                        "url": "https://www.youtubedownloaderhd.com/"  
+                        },  
+                         {  
                         "name": "花瓣网 - 提供丰富的设计灵感和素材，适合视频剪辑师收集素材。",  
                         "url": "https://huaban.com/"  
                         },  
@@ -304,6 +308,10 @@
                         {  
                             "name": "Freepik - 提供免费的矢量图和贴图，虽然有些内容需要付费，但也有大量免费资源。",  
                             "url": "https://www.freepik.com"  
+                        },  
+                        {  
+                        "name": "下载Instagram照片、视频、故事、IGTV、REELS，为PC、iPhone和Android",  
+                        "url": "https://www.instagramdownloader.com/"  
                         },  
                         {  
                             "name": "Pixabay - 提供免费的图片和插图，包括一些表情包和贴图。",  
@@ -391,6 +399,34 @@
                             "name": "DeepAI图像生成器 - 在线生成图像的AI工具。",
                             "url": "https://deepai.org/machine-learning-model/text2img"
                         },
+                        {  
+                        "name": "Fish Audio - Audio Generation For All",  
+                        "url": "https://www.fishaudio.com/"  
+                        },  
+                        {  
+                        "name": "AI工具集 - 700+ AI工具集合官网，国内外AI工具导航大全",  
+                        "url": "https://www.aitoolset.com/"  
+                        },  
+                        {  
+                        "name": "在线工具 - 第一家纯在线免安装的工具网站（免费使用）",  
+                        "url": "https://www.tool123.com/"  
+                        },  
+                        {  
+                        "name": "在线工具网 - 工作生活好帮手",  
+                        "url": "https://www.zxgj.cn/"  
+                        },  
+                        {  
+                        "name": "AIGCMass - 为你挑选实用的AI生产力工具",  
+                        "url": "https://www.aigcmass.com/"  
+                        },  
+                        {  
+                        "name": "文本工具 - 即时工具",  
+                        "url": "https://www.texttool.com/"  
+                        },  
+                        {  
+                        "name": "MikuTools - 一个轻量的工具集合",  
+                        "url": "https://miku.tools/"  
+                        },  
                         {
                             "name": "Runway ML - 提供多种AI工具的创作平台。",
                             "url": "https://runwayml.com/"
