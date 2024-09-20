@@ -6,23 +6,23 @@
                     "name": "游戏信息",
                     "links": [
                          {  
-                            "name": "Google Play - 安卓设备的官方应用商店",  
+                            "name": "Google Play - 安卓设备的官方应用商店。",  
                             "url": "https://play.google.com"  
                         },  
                         {  
-                            "name": "Apple App Store - iOS设备的官方应用商店",  
+                            "name": "Apple App Store - iOS设备的官方应用商店。",  
                             "url": "https://www.apple.com/app-store/"  
                         },  
                         {
-                            "name": "Steam - 全球最大的数字游戏商店",
+                            "name": "Steam - 全球最大的数字游戏商店。",
                             "url": "https://store.steampowered.com/"
                         },
                         {
-                            "name": "Epic Games Store - 提供独占游戏和免费游戏的数字商店",
+                            "name": "Epic Games Store - 提供独占游戏和免费游戏的数字商店。",
                             "url": "https://www.epicgames.com/store/en-US/"
                         },
                         {
-                            "name": "GOG - 无DRM的数字游戏商店",
+                            "name": "GOG - 无DRM的数字游戏商店。",
                             "url": "https://www.gog.com/"
                         },
                         {
