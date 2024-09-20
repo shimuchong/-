@@ -25,12 +25,12 @@
         }  
         .title {  
             text-align: center;  
-            font-size: 2.5rem; /* Increased font size */  
+            font-size: 2.5rem;  
             font-weight: bold;  
             margin-bottom: 20px;  
             color: #3b82f6;  
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Added shadow for depth */  
-            letter-spacing: 1px; /* Increased letter spacing */  
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);  
+            letter-spacing: 1px;  
         }  
         .loading-spinner {  
             display: none;  
@@ -61,22 +61,22 @@
             background: linear-gradient(90deg, #2563eb, #3b82f6);  
         }  
         .engine-button {  
-            background: #f97316; /* Orange color for engine search */  
+            background: #f97316;  
             color: white;  
         }  
         .engine-button:hover {  
             transform: scale(1.05);  
-            background: #ea580c; /* Darker orange on hover */  
+            background: #ea580c;  
         }  
         .input {  
             border: 1px solid #ccc;  
             border-radius: 30px;  
             padding: 12px 20px;  
-            width: 300px; /* Adjusted width for better layout */  
+            width: 300px;  
             transition: border-color 0.2s;  
-            white-space: nowrap; /* Prevent line breaks */  
-            overflow: hidden; /* Prevent overflow */  
-            text-overflow: ellipsis; /* Add ellipsis for overflow text */  
+            white-space: nowrap;  
+            overflow: hidden;  
+            text-overflow: ellipsis;  
         }  
         .input:focus {  
             border-color: #3b82f6;  
@@ -123,6 +123,12 @@
             <button onclick="performSearch()" class="button search-button">工具搜索</button>  
             <button id="clear-button" onclick="clearSearch()" class="button bg-red-500 hover:bg-red-600 hidden">清空</button>  
         </div>  
+        <div class="flex items-center justify-center mb-4">  
+            <select id="category-filter" class="input" onchange="filterByCategory()">  
+                <option value="">选择分类</option>  
+                <option value="all">所有工具</option>  
+            </select>  
+        </div>  
     </header>  
     <main class="mt-20 p-4">  
         <div id="navigation" class="max-w-6xl mx-auto p-8"></div>  
@@ -137,16 +143,17 @@
 
         function loadNavigationData() {  
             const spinner = document.getElementById('loading-spinner');  
-            spinner.style.display = 'block'; // Show loading spinner  
+            spinner.style.display = 'block';  
             fetch('https://raw.githubusercontent.com/shimuchong/-/main/Website%20Navigation%20Data%20JSON.json')  
                 .then(response => response.json())  
                 .then(data => {  
                     navigationData = data;  
                     loadNavigation(navigationData);  
+                    populateCategoryFilter(navigationData);  
                 })  
                 .catch(error => console.error('加载数据时出错:', error))  
                 .finally(() => {  
-                    spinner.style.display = 'none'; // Hide loading spinner  
+                    spinner.style.display = 'none';  
                 });  
         }  
 
@@ -160,7 +167,7 @@
 
                     const categoryTitle = document.createElement('h3');  
                     categoryTitle.className = "text-xl font-semibold text-gray-700 mb-2";  
-                    categoryTitle.innerHTML = `${sectionIndex + 1}. ${category.name}`; // Change to simple numbering  
+                    categoryTitle.innerHTML = `${sectionIndex + 1}. ${category.name}`;  
                     categoryContainer.appendChild(categoryTitle);  
 
                     const linkList = document.createElement('div');  
@@ -175,6 +182,56 @@
                     });  
                     categoryContainer.appendChild(linkList);  
                     container.appendChild(categoryContainer);  
+                });  
+            });  
+        }  
+
+        function populateCategoryFilter(data) {  
+            const categoryFilter = document.getElementById('category-filter');  
+            data.sections.forEach(section => {  
+                section.categories.forEach(category => {  
+                    const option = document.createElement('option');  
+                    option.value = category.name;  
+                    option.innerText = category.name;  
+                    categoryFilter.appendChild(option);  
+                });  
+            });  
+        }  
+
+        function filterByCategory() {  
+            const selectedCategory = document.getElementById('category-filter').value;  
+            const container = document.getElementById('navigation');  
+            container.innerHTML = '';  
+
+            if (selectedCategory === "") {  
+                loadNavigation(navigationData);  
+                return;  
+            }  
+
+            navigationData.sections.forEach(section => {  
+                section.categories.forEach(category => {  
+                    if (category.name === selectedCategory) {  
+                        const categoryContainer = document.createElement('div');  
+                        categoryContainer.className = "category-container";  
+
+                        const categoryTitle = document.createElement('h3');  
+                        categoryTitle.className = "text-xl font-semibold text-gray-700 mb-2";  
+                        categoryTitle.innerHTML = category.name;  
+                        categoryContainer.appendChild(categoryTitle);  
+
+                        const linkList = document.createElement('div');  
+                        linkList.className = "grid grid-cols-2 gap-4";  
+                        category.links.forEach(link => {  
+                            const linkItem = document.createElement('a');  
+                            linkItem.href = link.url;  
+                            linkItem.target = "_blank";  
+                            linkItem.className = "link-item text-center";  
+                            linkItem.innerText = link.name;  
+                            linkList.appendChild(linkItem);  
+                        });  
+                        categoryContainer.appendChild(linkList);  
+                        container.appendChild(categoryContainer);  
+                    }  
                 });  
             });  
         }  
