@@ -99,17 +99,25 @@
                             "url": "https://www.netflix.com"  
                         },  
                         {  
-                            "name": "Hulu - 提供流媒体视频服务的平台。",  
-                            "url": "https://www.hulu.com"  
-                        },  
-                        {  
-                            "name": "Disney+ - 迪士尼的流媒体视频服务。",  
-                            "url": "https://www.disneyplus.com"  
-                        },
-                        {  
                             "name": "TikTok - 短视频分享平台。",  
                             "url": "https://www.tiktok.com"  
                         },  
+                        {  
+                            "name": "Vimeo - 高质量视频分享平台。",  
+                            "url": "https://www.vimeo.com"  
+                        },  
+                        {  
+                            "name": "Instagram Reels - 短视频分享功能。",  
+                            "url": "https://www.instagram.com/reels"  
+                        },  
+                        {  
+                            "name": "Snapchat - 短视频和图片分享平台。",  
+                            "url": "https://www.snapchat.com"  
+                        },  
+                        {  
+                            "name": "Triller - 短视频制作和分享平台。",  
+                            "url": "https://www.triller.co"  
+                        }  
                         {  
                             "name": "抖音 - 中国的短视频分享平台。",  
                             "url": "https://www.douyin.com"  
@@ -353,22 +361,6 @@
                         {
                             "name": "提取音频 - 从视频中提取音频的工具。",
                             "url": "https://tinywow.com/video/extract-audio"
-                        },
-                        {
-                            "name": "MOV转MP4 - 将MOV格式视频转换为MP4的工具。",
-                            "url": "https://tinywow.com/video/mov-to-mp4"
-                        },
-                        {
-                            "name": "MKV转MP4 - 将MKV格式视频转换为MP4的工具。",
-                            "url": "https://tinywow.com/video/mkv-to-mp4"
-                        },
-                        {
-                            "name": "M4A转MP3 - 将M4A音频转换为MP3的工具。",
-                            "url": "https://tinywow.com/video/m4a-to-mp3"
-                        },
-                        {
-                            "name": "视频转WebP - 将视频转换为WebP格式的工具。",
-                            "url": "https://tinywow.com/video/to-webp"
                         },
                         {
                             "name": "音频分离 - 在线音频分离工具。",
