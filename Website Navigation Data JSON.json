@@ -494,63 +494,6 @@
         {
             "categories": [
                 {
-                    "name": "搜索引擎",
-                    "links": [
-                        {
-                            "name": "DuckDuckGo - 隐私保护的搜索引擎，提供无追踪搜索体验。",
-                            "url": "https://duckduckgo.com/"
-                        },
-                        {
-                            "name": "Startpage - 提供Google搜索结果的隐私保护搜索引擎。",
-                            "url": "https://www.startpage.com/"
-                        },
-                        {
-                            "name": "Ecosia - 绿色搜索引擎，搜索时种树。",
-                            "url": "https://www.ecosia.org/"
-                        },
-                        {
-                            "name": "Yandex - 俄罗斯的搜索引擎，提供多种服务。",
-                            "url": "https://yandex.com/"
-                        },
-                        {
-                            "name": "Bing - 微软的搜索引擎，提供丰富的搜索结果。",
-                            "url": "https://www.bing.com/"
-                        },
-                        {
-                            "name": "Qwant - 欧洲的隐私保护搜索引擎。",
-                            "url": "https://www.qwant.com/"
-                        },
-                        {
-                            "name": "Archive.org - 提供互联网档案和资源搜索的工具。",
-                            "url": "https://archive.org/"
-                        },
-                        {
-                            "name": "Wayback Machine - 查看网站历史版本的工具。",
-                            "url": "https://web.archive.org/"
-                        },
-                        {
-                            "name": "Google Scholar - 学术搜索引擎，提供学术论文和研究资料。",
-                            "url": "https://scholar.google.com/"
-                        },
-                        {
-                            "name": "Creative Commons Search - 搜索可自由使用的创作内容。",
-                            "url": "https://search.creativecommons.org/"
-                        },
-                        {
-                            "name": "百度 - 中国最大的搜索引擎，提供全面的搜索服务。",
-                            "url": "https://www.baidu.com/"
-                        },
-                        {
-                            "name": "搜狗搜索 - 提供搜索、输入法和其他网络服务。",
-                            "url": "https://www.sogou.com/"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "categories": [
-                {
                     "name": "其它工具",
                     "links": [
                         {
